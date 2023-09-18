@@ -1,3 +1,5 @@
+package org.launchcode;
+
 import java.util.Arrays;
 
 public class ArrayPractice {
@@ -20,6 +22,6 @@ public class ArrayPractice {
         String[] sentences = phrase.split("\\.");
         System.out.println(Arrays.toString(sentences));
 
-        //ArrayListPractice.sumEven(numbersList);
+        //org.launchcode.ArrayListPractice.sumEven(numbersList);
     }
 }
